@@ -1,0 +1,78 @@
+/* -------------------  MOBILE  --------------------- */
+
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: Arial;
+  min-height: 100vh;
+  background-image: url('../images/background.jpg');
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+}
+
+header {
+  /* header styles */
+}
+
+main {
+  flex: 1;
+  padding: 20px;
+}
+
+footer {
+  /* footer styles */
+}
+
+.rover_menu{
+  display:flex;
+  
+}
+
+.rover_image{
+  width: 32%;
+  height: auto;
+  padding: 5px;
+}
+
+.isActiveRover:hover{
+  border: 2px solid rgb(105, 208, 221);
+  font-size: 1.4em;
+}
+
+#roverData{
+  background: rgba(0, 0, 0, 0.5);
+}
+
+#roverImages p{
+  background: rgba(0, 0, 0, 0.5);
+}
+
+#roverImages img{
+  width: 70%;
+}
+
+
+
+/* -------------------  TABLET  --------------------- */
+@media (min-width: 768px) {
+  /* use mobile */
+  img{
+    width: 70%;
+  }
+}
+
+/* -------------------  DESKTOP  -------------------- */
+
+@media (min-width: 1224px) {
+  /* use mobile */
+  img{
+    width: 70%;
+  }
+  
+}
+
+/* -------------------  LARGE SCREENS  -------------- */
+
+@media (min-width: 1824px) {
+  /* use mobile */
+}
